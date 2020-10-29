@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<config>
+
+	<fieldset name="configuration"
+			label="SERIALS_CONFIG_COMPONENT_CONFIGURATION"
+			description="SERIALS_CONFIG_COMPONENT_CONFIGURATION_1"
+			addfieldpath="/administrator/components/com_serials/models/fields"/>
+
+	<fieldset name="permissions"
+			label="SERIALS_CONFIG_PERMISSIONS"
+			description="SERIALS_CONFIG_DEFAULT_PERMISSIONS_USED_FOR_ALL_CONTENT_IN_THIS_COMPONENT"
+			addfieldpath="/administrator/components/com_serials/models/fields">
+
+		<field name="rules"
+				label="SERIALS_FIELD_PERMISSIONS"
+				filter="rules"
+				type="rules"
+				validate="rules"
+				section="component"
+				component="com_serials"/>
+	</fieldset>
+</config>

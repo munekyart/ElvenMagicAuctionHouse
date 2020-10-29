@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<metadata>
+	<layout title="SERIALS_LAYOUT_INVENTORY">
+	<message>
+		<![CDATA[SERIALS_LAYOUT_SHOW_INVENTORY_LAYOUT]]>
+	</message></layout>
+
+	<fields name="request">
+
+		<fieldset name="request" addfieldpath="/administrator/components/com_serials/models/fields">
+
+			<field name="cid"
+					type="modalpicker"
+					label="SERIALS_JSEARCH_SELECT_INVENTORY"
+					required="false"
+					default=""
+					description="SERIALS_JSEARCH_SELECT_INVENTORY"
+					model="inventories"
+					labelKey="items"/>
+		</fieldset>
+	</fields>
+</metadata>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<config>
+
+	<menu name="cpanel">
+
+		<item		label="SERIALS_LAYOUT_AUCTIONDB"
+				description="SERIALS_LAYOUT_SHOW_AUCTIONDB_LAYOUT"
+				type="layout"
+				view="accounts"
+				layout="default"
+				icon="serials_accounts"/>
+
+		<item		label="SERIALS_LAYOUT_AUCTIONS"
+				description="SERIALS_LAYOUT_SHOW_AUCTIONS_LAYOUT"
+				type="layout"
+				view="auctions"
+				layout="default"
+				icon="serials_auctions"/>
+
+		<item		label="SERIALS_LAYOUT_INVENTORIES"
+				description="SERIALS_LAYOUT_SHOW_INVENTORIES_LAYOUT"
+				type="layout"
+				view="inventories"
+				layout="default"
+				icon="serials_inventories"/>
+
+		<item		label="SERIALS_LAYOUT_MAILS"
+				description="SERIALS_LAYOUT_SHOW_MAILS_LAYOUT"
+				type="layout"
+				view="mails"
+				layout="default"
+				icon="serials_mails"/>
+	</menu>
+
+	<menu name="menu">
+
+		<item		label="SERIALS_LAYOUT_CONTROL_PANEL"
+				description="SERIALS_LAYOUT_SHOW_CONTROL_PANEL_LAYOUT"
+				type="layout"
+				view="cpanel"
+				layout="default"
+				icon="serials_cpanel"/>
+
+		<item		label="SERIALS_LAYOUT_AUCTIONDB"
+				description="SERIALS_LAYOUT_SHOW_AUCTIONDB_LAYOUT"
+				type="layout"
+				view="accounts"
+				layout="default"
+				icon="serials_accounts"/>
+
+		<item		label="SERIALS_LAYOUT_AUCTIONS"
+				description="SERIALS_LAYOUT_SHOW_AUCTIONS_LAYOUT"
+				type="layout"
+				view="auctions"
+				layout="default"
+				icon="serials_auctions"/>
+
+		<item		label="SERIALS_LAYOUT_INVENTORIES"
+				description="SERIALS_LAYOUT_SHOW_INVENTORIES_LAYOUT"
+				type="layout"
+				view="inventories"
+				layout="default"
+				icon="serials_inventories"/>
+
+		<item		label="SERIALS_LAYOUT_MAILS"
+				description="SERIALS_LAYOUT_SHOW_MAILS_LAYOUT"
+				type="layout"
+				view="mails"
+				layout="default"
+				icon="serials_mails"/>
+	</menu>
+</config>

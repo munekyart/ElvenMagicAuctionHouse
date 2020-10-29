@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<metadata>
+	<layout title="SERIALS_LAYOUT_AUCTIONDB_ITEM">
+	<message>
+		<![CDATA[SERIALS_LAYOUT_SHOW_AUCTIONDB_ITEM_LAYOUT]]>
+	</message></layout>
+
+	<fields name="request">
+
+		<fieldset name="request" addfieldpath="/administrator/components/com_serials/models/fields">
+
+			<field name="cid"
+					type="modalpicker"
+					label="SERIALS_JSEARCH_SELECT_ACCOUNT"
+					required="false"
+					default=""
+					description="SERIALS_JSEARCH_SELECT_ACCOUNT"
+					model="accounts"
+					labelKey="golds"/>
+		</fieldset>
+	</fields>
+</metadata>

@@ -1,0 +1,110 @@
+/**                               ______________________________________________
+*                          o O   |                                              |
+*                 (((((  o      <    Generated with Cook Self Service  V3.1.10  |
+*                ( o o )         |______________________________________________|
+* --------oOOO-----(_)-----OOOo---------------------------------- www.j-cook.pro --- +
+* @version		
+* @package		AuctioneerDB
+* @subpackage	AuctioneerDB
+* @copyright	
+* @author		 -  - 
+* @license		
+*
+*             .oooO  Oooo.
+*             (   )  (   )
+* -------------\ (----) /----------------------------------------------------------- +
+*               \_)  (_/
+*/
+
+/**
+* Component icons 48px (Cpanel)
+**/
+.ico-48-serials, .icon-48-serials {
+	background-image:url('../images/icon-48-serials.png');
+}
+.ico-48-serials_accounts, .icon-48-serials_accounts {
+	background-image:url('../images/icon-48-serials_accounts.png');
+}
+.ico-48-serials_auctions, .icon-48-serials_auctions {
+	background-image:url('../images/icon-48-serials_auctions.png');
+}
+.ico-48-serials_inventories, .icon-48-serials_inventories {
+	background-image:url('../images/icon-48-serials_inventories.png');
+}
+.ico-48-serials_mails, .icon-48-serials_mails {
+	background-image:url('../images/icon-48-serials_mails.png');
+}
+.ico-48-serials_cpanel, .icon-48-serials_cpanel {
+	background-image:url('../images/icon-48-serials_cpanel.png');
+}
+
+/**
+* Component icons 16px (Sub Menu)
+**/
+.ico-16-serials, .icon-16-serials {
+	background-image:url('../images/icon-16-serials.png');
+}
+.ico-16-serials_accounts, .icon-16-serials_accounts {
+	background-image:url('../images/icon-16-serials_accounts.png');
+}
+.ico-16-serials_auctions, .icon-16-serials_auctions {
+	background-image:url('../images/icon-16-serials_auctions.png');
+}
+.ico-16-serials_inventories, .icon-16-serials_inventories {
+	background-image:url('../images/icon-16-serials_inventories.png');
+}
+.ico-16-serials_mails, .icon-16-serials_mails {
+	background-image:url('../images/icon-16-serials_mails.png');
+}
+.ico-16-serials_cpanel, .icon-16-serials_cpanel {
+	background-image:url('../images/icon-16-serials_cpanel.png');
+}
+
+/**
+* Icons colors
+**/
+.icon-edit:before {
+	color:#2f96b4;
+}
+.icon-featured:before, .icon-star:before, .icon-star-empty:before, .icon-default:before {
+	color:#f89406;
+}
+.icon-pending:before {
+	color:#f89406;
+}
+.icon-publish:before, .icon-save:before, .icon-ok:before {
+	color:#51a351;
+}
+.icon-unpublish:before, .btn-toolbar .icon-cancel:before {
+	color:#bd362f;
+}
+.icon-not-ok:before, .icon-eye-close:before {
+	color:#bd362f;
+}
+.icon-save-new:before {
+	color:#51a351;
+}
+.icon-ban-circle:before, .icon-minus-sign:before {
+	color:#bd362f;
+}
+.icon-save-copy:before, .btn-toolbar .icon-copy:before {
+	color:#51a351;
+}
+
+/**
+* System
+**/
+span.spinner {
+	background-image:url('../images/icon-16-spinner.gif');
+}
+[class^="icon-32"], [class*=" icon-32"] {
+	background-position:0px 0px; !important;
+}
+
+/**
+* Fixes
+**/
+.jgrid span {
+	padding:0px;
+}
+

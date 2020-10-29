@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension type="component" version="1.6" method="upgrade">
+	<name><![CDATA[serials]]></name>
+	<author><![CDATA[]]></author>
+	<creationDate><![CDATA[28 Oct 2020]]></creationDate>
+	<copyright>World Auction House Elven Magic Auction House Database Component is GNU Elven Magic is Copyright on Steam to Daniel Chay</copyright>
+	<authorEmail><![CDATA[]]></authorEmail>
+	<authorUrl><![CDATA[]]></authorUrl>
+	<version><![CDATA[]]></version>
+	<license><![CDATA[]]></license>
+	<description><![CDATA[]]></description>
+
+	<files folder="site">
+		<folder>_fork</folder>
+		<folder>controllers</folder>
+		<folder>css</folder>
+		<folder>files</folder>
+		<folder>images</folder>
+		<folder>layouts</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>menu.xml</filename>
+		<filename>router.php</filename>
+		<filename>serials.php</filename>
+	</files>
+
+	<languages folder="site">
+		<language tag="en-GB">language/en-GB.com_serials.ini</language>
+	</languages>
+
+	<administration>
+
+		<files folder="admin">
+			<folder>_fork</folder>
+			<folder>classes</folder>
+			<folder>controllers</folder>
+			<folder>css</folder>
+			<folder>dom</folder>
+			<folder>helpers</folder>
+			<folder>images</folder>
+			<folder>js</folder>
+			<folder>layouts</folder>
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>menu.xml</filename>
+			<filename>serials.php</filename>
+		</files>
+
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB.com_serials.ini</language>
+			<language tag="en-GB">language/en-GB.com_serials.sys.ini</language>
+		</languages>
+		<menu img="components/com_serials/images/icon-16-serials.png">SERIALS_MENU_AUCTIONEERDB</menu>
+
+		<submenu>
+			<menu img="components/com_serials/images/icon-16-serials_accounts.png" link="option=com_serials&amp;view=accounts">SERIALS_MENU_AUCTIONDB</menu>
+			<menu img="components/com_serials/images/icon-16-serials_auctions.png" link="option=com_serials&amp;view=auctions">SERIALS_MENU_AUCTIONS</menu>
+			<menu img="components/com_serials/images/icon-16-serials_inventories.png" link="option=com_serials&amp;view=inventories">SERIALS_MENU_INVENTORIES</menu>
+			<menu img="components/com_serials/images/icon-16-serials_mails.png" link="option=com_serials&amp;view=mails">SERIALS_MENU_MAILS</menu>
+		</submenu>
+	</administration>
+	<scriptfile>script.php</scriptfile>
+
+	<install>
+
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+			<file driver="mysql" charset="utf8">sql/dataset.mysql.utf8.sql</file>
+		</sql>
+	</install>
+
+	<update>
+
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+
+	<uninstall>
+
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+</extension>
